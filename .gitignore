@@ -1,0 +1,5 @@
+csharp/bin/Debug/
+csharp/obj/Debug/
+csharp/packages/
+csharp/.vs/
+ecmascript/**/node_modules/

@@ -3,3 +3,7 @@ csharp/obj/Debug/
 csharp/packages/
 csharp/.vs/
 ecmascript/**/node_modules/
+fsharp/packages/
+fsharp/.vs/
+fsharp/bin/
+fsharp/obj/

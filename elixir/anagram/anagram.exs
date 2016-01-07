@@ -13,9 +13,7 @@ defmodule Anagram do
   	for candidate <- candidates,
   		up_cand = upcase(candidate),		
   		up_base !== up_cand,
-  		base_list = sort(up_base),
-  		cand_list = sort(up_cand),
-  		base_list === cand_list,
+  		sort(up_base) === sort(up_cand),
   		do: candidate
   end
 

@@ -1,4 +1,7 @@
 defmodule DNA do
+
+  @map %{?A => ?U, ?C => ?G, ?T => ?A, ?G => ?C}
+
   @doc """
   Transcribes a character list representing DNA nucleotides to RNA
 
@@ -9,6 +12,6 @@ defmodule DNA do
   """
   @spec to_rna([char]) :: [char]
   def to_rna(dna) do
-
+      Enum.map(dna, fn n -> Map.get(@map, n) end)
   end
 end
